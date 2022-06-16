@@ -80,7 +80,7 @@ function  updateSquares() {
     squares.forEach((square) => {
         let position =square.id
         let simbol = board[position]
-        if(simbol != ''){
+        if(simbol != ''){ 
             square.innerHTML = `<dic class='${simbol}'></div>`
         }
     })
