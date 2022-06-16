@@ -118,14 +118,6 @@ function isWin() {
     return false
 }
 
-function restartGame() {
- document.getElementById("recomeco").onclick = (rec) =>{
-    console.log("func")
-    let play = rec.onload
 
- }
-}
-
-restartGame()
 
 
